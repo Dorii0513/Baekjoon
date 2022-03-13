@@ -34,25 +34,19 @@ public class q14681 {
 import java.io.*;
 import java.util.*;
 
-public class q14681 {
+public class Main {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String str = br.readLine();
-        StringTokenizer st = new StringTokenizer(str, " ");
-        int x = Integer.parseInt(st.nextToken());
-        int y = Integer.parseInt(st.nextToken());
+        int x = Integer.parseInt(br.readLine());
+        int y = Integer.parseInt(br.readLine());
         
-        while (st.hasMoreTokens()){
         if(x > 0 && y > 0) System.out.println("1");
         else if(x < 0 && y > 0) System.out.println("2");
         else if(x < 0 && y < 0) System.out.println("3");
         else if(x > 0 && y < 0) System.out.println("4");
-        }
-        
     }
 }
-
 */
 
 
