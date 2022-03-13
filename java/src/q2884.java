@@ -9,7 +9,12 @@ import java.io.*;
 
 public class q2884 {
     
-    public static void main(String[] args){
-
+    public static void main(String[] args)throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
+        String str = br.readLine();
+        StringTokenizer st = new StringTokenizer(str, " ");
+        int H = Integer.parseInt(br.readLine());
+        int M = Integer.parseInt(br.readLine());
     }
 }
