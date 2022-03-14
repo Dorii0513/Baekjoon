@@ -12,9 +12,27 @@ public class q2884 {
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
-        String str = br.readLine();
-        StringTokenizer st = new StringTokenizer(str, " ");
-        int H = Integer.parseInt(br.readLine());
-        int M = Integer.parseInt(br.readLine());
+        //String str = br.readLine();
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        int H = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+
+        //M이 45 이상일 때 H 값은 변동이 없음
+        //M이 45이하일 때, H 값은 1 줄어들고 M은 60-45+M의 출력값을 가져야함
+        int H2 = 0;
+        int M2 = 0;
+        if (M >= 45){ 
+            H2 = H; 
+            M2 = M - 45; }
+        else if(M < 45 ){ 
+            M2 = 15 + M;
+                if(H > 0){
+                    H2 = H - 1;
+                } else{
+                    H2 = 23;
+                }
+             }
+
+        System.out.print(H2 + " " + M2);
     }
 }
