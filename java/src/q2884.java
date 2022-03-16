@@ -20,18 +20,13 @@ public class q2884 {
         //M이 45미만일 때, M은 15+M의 출력값을 가져야함.
         int H2 = 0;
         int M2 = 0;
-        if (M >= 45){ 
-            H2 = H; 
-            M2 = M - 45; }
-        else if(M < 45 ){ 
-            M2 = 15 + M;
-                if(H > 0){
-                    H2 = H - 1;
-                } else{     // H >= 0 이므로  여기서 else는 H == 0일 때를 의미함
-                    H2 = 23;
-                }
-             }
-
+        
+        if (M >= 45) { 
+            H2 = H; M2 = M - 45;
+        } else if (M <45) M2 = 15 + M;  // M2 = M - 45 + 60 (시각이 바뀌면서 60분이 넘어옴)
+            if(H > 0) H2 = H - 1;
+            else H2 = 23; // H >= 0 이므로  여기서 else는 H == 0일 때를 의미함
+        
         System.out.print(H2 + " " + M2);
     }
 }
