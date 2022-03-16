@@ -29,9 +29,10 @@ public class q2480 {
             if(num1 > num2 )
                 if(num1 > num3) prize = num1 * 100;
                 else prize = num3 * 100;
-            else
-                if(num2 > num3) prize = num2 * 100;
-                else prize = num3 * 100;
+            else prize = Math.max(Math.max(num1,num2),num3) * 100;
+                //if(num2 > num3) prize = num2 * 100;
+                //else prize = num3 * 100;
+
     
         System.out.print(prize);
     }
