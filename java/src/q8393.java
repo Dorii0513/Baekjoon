@@ -6,6 +6,7 @@ public class q8393 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
+        input.close();
         int sum = 0;
         for(int i = 0; N > i; N--){
             sum += N;

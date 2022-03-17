@@ -20,7 +20,7 @@ public class q14681 {
         Scanner input = new Scanner(System.in); //Scanner객체 선언
         int x = input.nextInt(); // x좌표 입력 받기
         int y = input.nextInt(); // y좌표 입력 받기
-
+        input.close();
         if(x > 0 && y > 0) System.out.println("1"); // 둘다 양수일 때 1 출력
         else if(x < 0 && y > 0) System.out.println("2"); // x 음수, y 양수일 때 2 출력
         else if(x < 0 && y < 0) System.out.println("3"); // x 음수, y 음수일 때 3 출력

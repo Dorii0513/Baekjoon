@@ -12,7 +12,7 @@ public class q2753 {
         
         Scanner input = new Scanner(System.in); //Scanner 객체 생성
         int year = input.nextInt(); // Scanner를 통해 연도(year) 입력받기
-        
+        input.close();
         // 배수와 관련된 조건이므로 나머지 값 설정
         // 나머지가 0이면 배수, 1이상이면 배수가 아님
         int A = year % 4; // 조건 A : 4의 나머지
