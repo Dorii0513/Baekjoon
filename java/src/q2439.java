@@ -6,7 +6,7 @@ public class q2439 {
         input.close();
 
         for(int i = 1; i <= N; i++){
-            for(int j = 1; j <= N; N--){
+            for(int j = (N-1); j >= i; j--){
                 System.out.print(" ");
             }
             for(int k = 1; k <= i; k++){
