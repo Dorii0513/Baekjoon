@@ -17,12 +17,8 @@ public class q1110 {
             i++;
             if(num1 + num2 >= 10){
                 newNum = num2 * 10 + (num1 + num2 - 10);
-                //num1 = num2;
-                //num2 = num1 + num2 - 10;
             } else{
                 newNum = num2 * 10 + (num1 + num2);
-                //num1 = num2;
-                //num2 = num1 + num2;
             }
             num1 = newNum / 10;
             num2 = newNum % 10;
