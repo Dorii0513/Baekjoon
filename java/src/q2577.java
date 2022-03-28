@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 import java.util.stream.Stream;
 
 public class q2577 {
@@ -14,7 +13,6 @@ public class q2577 {
         int [] arr = Stream.of(String.valueOf(multi).split("")).mapToInt(Integer::parseInt).toArray(); // A B C 곱한 값을 자리 수 마다 배열에 저장
 
         int [] chk = new int[10]; // 몇 번 쓰였는지 체크하는 배열
-        int sum = 0;
 
         for(int i = 0; i < arr.length; i++){
            for(int j = 0; j < 10; j++){
