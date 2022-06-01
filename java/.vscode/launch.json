@@ -1,0 +1,238 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch q4344",
+            "request": "launch",
+            "mainClass": "q4344",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": []
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch q10162",
+            "request": "launch",
+            "mainClass": "q10162",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q10818",
+            "request": "launch",
+            "mainClass": "q10818",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q10871",
+            "request": "launch",
+            "mainClass": "q10871",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q10950",
+            "request": "launch",
+            "mainClass": "q10950",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q10951",
+            "request": "launch",
+            "mainClass": "q10951",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q10952",
+            "request": "launch",
+            "mainClass": "q10952",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q11021",
+            "request": "launch",
+            "mainClass": "q11021",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q11022",
+            "request": "launch",
+            "mainClass": "q11022",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q1110",
+            "request": "launch",
+            "mainClass": "q1110",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q14681",
+            "request": "launch",
+            "mainClass": "q14681",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q1546",
+            "request": "launch",
+            "mainClass": "q1546",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q15552",
+            "request": "launch",
+            "mainClass": "q15552",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q18238",
+            "request": "launch",
+            "mainClass": "q18238",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2438",
+            "request": "launch",
+            "mainClass": "q2438",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2439",
+            "request": "launch",
+            "mainClass": "q2439",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2480",
+            "request": "launch",
+            "mainClass": "q2480",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2525",
+            "request": "launch",
+            "mainClass": "q2525",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2562",
+            "request": "launch",
+            "mainClass": "q2562",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2577",
+            "request": "launch",
+            "mainClass": "q2577",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2739",
+            "request": "launch",
+            "mainClass": "q2739",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2741",
+            "request": "launch",
+            "mainClass": "q2741",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2742",
+            "request": "launch",
+            "mainClass": "q2742",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2753",
+            "request": "launch",
+            "mainClass": "q2753",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2864",
+            "request": "launch",
+            "mainClass": "q2864",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2884",
+            "request": "launch",
+            "mainClass": "q2884",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q3052",
+            "request": "launch",
+            "mainClass": "q3052",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q5585",
+            "request": "launch",
+            "mainClass": "q5585",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q8393",
+            "request": "launch",
+            "mainClass": "q8393",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q8958",
+            "request": "launch",
+            "mainClass": "q8958",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
+            "name": "Launch q9498",
+            "request": "launch",
+            "mainClass": "q9498",
+            "projectName": "java_ec5fab92"
+        }
+    ]
+}
