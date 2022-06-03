@@ -4,22 +4,23 @@ import java.util.*;
 public class q4344 {
     public static void main(String args[])throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine()," ");
+        StringTokenizer st;
 
         int C = Integer.parseInt(br.readLine());
         int scoreArr [];
-        int[] rateArr = new int[C];
+        float[] rateArr = new float[C];
+        
         
         for(int i = 0; i < C; i++){
-            int studentNum = Integer.parseInt(st.nextToken());
+            int studentNum = Integer.parseInt(br.readLine());
             scoreArr = new int[studentNum];
             int sum = 0;
             int count = 0;
 
+            st = new StringTokenizer(br.readLine()," ");
             for(int z = 0; z < studentNum; z++ ){
-                int score = Integer.parseInt(st.nextToken());
-                sum += score;
-                scoreArr[z] = score;
+                scoreArr[z] = Integer.parseInt(st.nextToken());
+                sum += scoreArr[z];
             }
 
             for(int x = 0; x < studentNum; x++){
@@ -28,7 +29,7 @@ public class q4344 {
                 }
             }
 
-            rateArr[i] = count/C * 100;
+            rateArr[i] = (count / studentNum) * 100;
         }
         
         for(int y = 0; y < C; y++){
