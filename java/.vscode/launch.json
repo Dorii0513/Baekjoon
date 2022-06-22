@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch q4344_2",
+            "request": "launch",
+            "mainClass": "q4344_2",
+            "projectName": "java_ec5fab92"
+        },
+        {
+            "type": "java",
             "name": "Launch q4344",
             "request": "launch",
             "mainClass": "q4344",
