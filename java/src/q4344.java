@@ -7,39 +7,34 @@ public class q4344 {
         StringTokenizer st;
 
         int C = Integer.parseInt(br.readLine());
+        float [] avg = new float[C];
 
         for(int i = 0; i < C; i++){
-            int sum = 0;
-            int count = 0;
-            float avg = 0;
-
+            float sum = 0;
+            float count = 0;
+            
             st = new StringTokenizer(br.readLine()," ");
-            int [] caseArr = new int [st.countTokens()];
-            System.out.println(st.countTokens());
+            int num = st.countTokens();
+            int [] caseArr = new int [num];
 
-            for(int j = 0; j < st.countTokens(); j++){
+            for(int j = 0; j < num; j++){
                 caseArr[j] = Integer.parseInt(st.nextToken());
                 sum += caseArr[j];
-                System.out.println(sum);
             }
             
             sum -= caseArr[0];
-            System.out.println(sum);
-            System.out.println(caseArr[2]);
 
-            for(int z = 1; z < caseArr[0]; z++){
+            for(int z = 1; z < num; z++){
                 if(caseArr[z] > sum/caseArr[0]){
                     count += 1;
                 }
             }
-            System.out.println(count);
-            avg = count * 100 / caseArr[0];
-            System.out.println(String.format("%.3f", avg));
+            avg[i] = count * 100 / caseArr[0];
         }
-            
+        for(int a = 0; a < C; a++){
+            System.out.print(String.format("%.3f", avg[a]) + "%"); 
         }
-        
-        
-    
+    }
+          
 }
 
